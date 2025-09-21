@@ -38,7 +38,7 @@ venv\Scripts\activate    # Windows
 3. Instale as dependências:
 
 ```bash
-pip install SpeechRecognition gTTS wikipedia pygame
+pip install -r requirements.txt
 ```
 
 4. Instale as dependências do sistema (Linux):
@@ -78,11 +78,3 @@ assistente_IA_PNL/
 ├── venv/                # Ambiente virtual (não commitado)
 └── README.md
 ```
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Se quiser, posso gerar também um arquivo `LICENSE` padrão MIT para você incluir no repositório — é só pedir.
